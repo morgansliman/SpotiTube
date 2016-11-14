@@ -5,6 +5,7 @@
 
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Custom CSS & reset -->
 	<link rel="stylesheet" href="assets/css/reset.css">
@@ -15,19 +16,25 @@
 	<div class="navbar-fixed">
 		<nav class="extended-nav z-depth-3">
 			<div class="nav-wrapper">
+			    <a href="#" data-activates="mobile" class="button-collapse">
+			    <i class="material-icons">menu</i></a>
+			    <a class="left hide-on-med-and-down">Sign out</a>
+			    <ul class="side-nav" id="mobile">
+                  <li><a>Sign out</a></li>
+                </ul>
 				<a href="#!" class="brand-logo center">
-					<img id="logo" src="assets/images/spotitube.png">
+					<img id="logo" src="assets/images/spotitube.png" alt="spotitube logo">
 				</a>
 			</div>
 		</nav>
 	</div>
 
 	<div class="row content">
-		<div class="col m6 spotify-wrapper grey darken-2">
+		<div class="col s6 spotify-wrapper grey darken-2">
 			<p>hello</p>
 		</div>
 
-		<div class="col m6 youtube-wrapper grey lighten-2">
+		<div class="col s6 youtube-wrapper grey lighten-2">
 			<p>world</p>
 		</div>
 	</div>
